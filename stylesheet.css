@@ -11,3 +11,18 @@ body {
 	height: auto;
 	width: 65%;
 }
+#banner {
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	height: 288px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-repeat: no-repeat;
+	background-image: url(images/microsoftbanner.jpg);
+	background-position: center;
+}
+
+#dos {
+	margin-right: 300px;
+}
