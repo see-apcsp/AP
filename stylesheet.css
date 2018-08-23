@@ -1,0 +1,13 @@
+body {
+	background-color: #0cf;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+#main {
+	background-color: #0cf;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	width: 65%
+}
