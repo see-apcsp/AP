@@ -2,27 +2,54 @@ body {
 	background-color: #0cf;
 	text-align: center;
 	font-family: 'Ubuntu', sans-serif;
+	margin-left: fixed;
+	margin-right: fixed;
 }
 #main {
 	background-color: #0cf;
-	text-align: center;
+	text-align: left;
 	margin-left: auto;
 	margin-right: auto;
 	height: auto;
 	width: 65%;
 }
 #banner {
-	margin-left: auto;
-	margin-right: auto;
-	width: auto;
-	height: 288px;
-	margin-top: 15px;
-	margin-bottom: 15px;
+	margin-left: fixed;
+	margin-right: fixed;
+	text-align: center;
+	width: fixed;
+	height: fixed;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	background-repeat: no-repeat;
 	background-image: url(images/microsoftbanner.jpg);
 	background-position: center;
 }
-
 #dos {
 	margin-right: 300px;
+	width: fixed;
+	height: fixed;
+	animation: 
+		flicker 1s infinite;
+}
+#floppy {
+	text-align: center;
+	width: fixed;
+	height: fixed;
+}
+#ibm {
+	text-align: center;
+	height: fixed;
+	width: fixed;
+}
+@keyframes flicker {
+	0%   { opacity:1; }
+    50%  { opacity:0; }
+  	100% { opacity:1; }
+}
+#contents {
+	float: left;
+	text-align: left;
 }
